@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+.choice img {
+    width: 100px !important;
+    height: 100%;
+}
