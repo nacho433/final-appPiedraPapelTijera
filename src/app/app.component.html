@@ -1,14 +1,28 @@
+<div class="title">
+  <h1>¡¡Piedra, Papel ó Tijera!!</h1>
+</div>
+<div class="score-board">
+  <div id="user-label" class="badge">user:</div>
+  <div id="comp-label" class="badge">Rival:</div>
+  <span id="user-score">{{ pointsUser }}</span>:<span id="comp-score">{{ pointsComp }}</span>
+</div>
 
-<div>
+<form class="conteiner">
+
+<p class="info-game">{{result}}</p>
+<div class="choice">
   
-  <div class="choice img">
+  <div class="choice">
     <img src="../../../assets/imagenes/piedra.png">
   </div>
-  <div class="choice img">
+  <div class="choice">
     <img src="../../../assets/imagenes/papel.png">
   </div>
-  <div class="choice img">
+  <div class="choice">
     <img src="../../../assets/imagenes/tijeras.png">
   </div>
 
 </div>
+<p class="info-game">Selecciona tu jugada</p>
+ 
+</form>
