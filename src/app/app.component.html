@@ -12,17 +12,21 @@
 <p class="info-game">{{result}}</p>
 <div class="choice">
   
-  <div class="choice">
+  <div class="choice" (click)="play('r')">
     <img src="../../../assets/imagenes/piedra.png">
   </div>
-  <div class="choice">
+  <div class="choice" (click)="play('p')">
     <img src="../../../assets/imagenes/papel.png">
   </div>
-  <div class="choice">
+  <div class="choice" (click)="play('s')">
     <img src="../../../assets/imagenes/tijeras.png">
   </div>
 
 </div>
 <p class="info-game">Selecciona tu jugada</p>
- 
+
+<div class="info-game"  >
+<button (click)="reiniciarPagina()" class="boton">Volver a Jugar</button>
+</div> 
+
 </form>

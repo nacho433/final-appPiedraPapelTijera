@@ -7,3 +7,14 @@ body{
 	background-color:#110F26;
 	color: white;
 }
+
+.boton {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
